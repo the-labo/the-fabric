@@ -1,0 +1,25 @@
+{
+  "TheDraw": {
+    "description": "Canvas drawing of the-components",
+    "displayName": "TheDraw",
+    "methods": []
+  },
+  "TheDrawStyle": {
+    "description": "Style for TheDraw",
+    "displayName": "TheDrawStyle",
+    "methods": [],
+    "props": {
+      "options": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Style options",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      }
+    }
+  }
+}

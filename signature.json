@@ -1,12 +1,79 @@
 {
-  "TheDraw": {
+  "TheFabric": {
     "description": "Canvas drawing of the-components",
-    "displayName": "TheDraw",
-    "methods": []
+    "displayName": "TheFabric",
+    "methods": [
+      {
+        "name": "doDraw",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "{fabric, canvas}",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "startTicking",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "callback",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "stopTicking",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      }
+    ],
+    "props": {
+      "draw": {
+        "type": {
+          "name": "func"
+        },
+        "required": true,
+        "description": "Draw handler",
+        "defaultValue": {
+          "value": "() => null",
+          "computed": false
+        }
+      },
+      "width": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Canvas width",
+        "defaultValue": {
+          "value": "300",
+          "computed": false
+        }
+      },
+      "height": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Canvas height",
+        "defaultValue": {
+          "value": "300",
+          "computed": false
+        }
+      }
+    }
   },
-  "TheDrawStyle": {
-    "description": "Style for TheDraw",
-    "displayName": "TheDrawStyle",
+  "TheFabricStyle": {
+    "description": "Style for TheFabric",
+    "displayName": "TheFabricStyle",
     "methods": [],
     "props": {
       "options": {

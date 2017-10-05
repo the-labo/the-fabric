@@ -1,6 +1,6 @@
 {
   "name": "the-fabric",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Canvas drawing of the-components",
   "main": "shim",
   "scripts": {

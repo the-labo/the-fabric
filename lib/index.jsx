@@ -1,7 +1,7 @@
 /**
- * Canvas drawing of the-components
+ * Fabric.js wrapper of the-components
  * @module the-fabric
- * @version 1.0.0
+ * @version 1.0.1
  */
 'use strict'
 
